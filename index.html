@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APHV</title>
+</head>
+
+<body>
+    <div class="container2 judul">
+        <h1>Aplikasi Penghilang Huruf Vokal</h1>
+    </div>
+    <div class="container">
+        <div class="container-input">
+            <div class="title">
+                <h2>Input</h2>
+            </div>
+            <div class="keterangan">
+                <p>Aplikasi ini akan menghilangkan huruf vokal yang kalian masukkan</p>
+            </div>
+            <div class="text">
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Masukkan Kalimat..."></textarea>
+            </div>
+            <div class="button">
+                <button id="input" onclick="main()">Hilangkan</button>
+            </div>
+        </div>
+        <div class="container-hasil">
+            <div class="title">
+                <h2>Hasil</h2>
+            </div>
+            <div class="hasil">
+                <p id="hasil"></p>
+            </div>
+            <div class="reset-button">
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    padding: 0 0;
+    margin: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.container {
+    margin: 20px 20px;
+    display: flex;
+    position: relative;
+    align-content: space-between;
+}
+
+.container2 {
+    margin: 20px 20px;
+    display: flex;
+    position: relative;
+
+}
+
+.container-input {
+    background-color: cadetblue;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.container-hasil {
+    background-color: cadetblue;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    border-left: solid 1px;
+    border-color: darkslategray;
+}
+
+textarea {
+    border: none;
+}
+
+button {
+    background-color: whitesmoke;
+    border: none;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 10px;
+    height: 30px;
+    right: 20px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0px 0px;
+    padding-left: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 10px auto;
+    color: darkslategray;
+}
+
+.keterangan p {
+    font-size: 12px;
+    margin: 10px 20px;
+}
+
+.title {
+    background-color: gray;
+    margin: 0px 0px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+#text {
+    width: 100%;
+}
+
+.text {
+    margin: 0 20px;
+}
+
+.hasil {
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
