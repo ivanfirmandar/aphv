@@ -1,2 +1,2 @@
-# aphv
+# APHV
 Aplikasi Penghilang Huruf Vokal
